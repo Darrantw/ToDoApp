@@ -1,0 +1,173 @@
+/* ========================= MAIN ELEMENTS ========================= */
+
+.header {
+  background-color: hsla(40, 100%, 50%, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 15vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-container {
+  margin: 0 auto;
+  width: 25vw;
+}
+
+.main {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 15.01vh;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(44, 88%, 78%, 1);
+}
+
+.footer {
+  position: fixed;
+  background-color: hsla(40, 100%, 50%, 1);
+  left: 0;
+  bottom: 0;
+  top: 90.001vh;
+  width: 100vw;
+  height: 10vh;
+}
+
+.note-container {
+  /* margin: 0 auto;
+  margin-top: 25px;
+  width: 85vw; */
+  /* background-color: red; */
+  width: 50vw;
+  display: inline-block;
+  left: 30%;
+}
+
+.note-background {
+  background-image: url('./notes.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  border: 20px solid hsla(44, 100%, 50%, 1);
+  height: 15vh;
+  width: 8vw;
+  /* background-color: #fff; */
+}
+
+
+
+.error {
+  display: inline;
+  color: red;
+}
+
+.today {
+  background-color: pink;
+}
+
+.calendar-container {
+  width: 50vw;
+  display: inline-block;
+  left: 30%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 15px;
+}
+
+.days {
+  display: inline;
+}
+
+.days-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 15px;
+}
+
+.day-square {
+  background-color: hsla(184, 42%, 72%, 1);
+}
+
+.padding-square {
+  background-color: hsla(184, 42%, 50%, 1);
+}
+
+
+.calendar-title-item {
+  display: inline;
+}
+
+/* ==================================== SIDEBAR ======================================== */
+
+.sidebar {
+  display: inline-block;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 25vw;
+  background-color: hsla(184, 42%, 50%, 1);
+}
+
+.sidebar-item {
+  font-size: 2em;
+  border-bottom: 1px solid #000;
+  display: block;
+  border: none;
+  background: none;
+}
+
+.sidebar-subitem {
+  font-size: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  display: block;
+  border: none;
+  background: none;
+}
+
+/* ==================================== CONTENT AREA ======================================== */
+
+.content-area {
+  display: inline-block;
+  /* grid-template-areas: 'myContent'; */
+  margin: 0 auto;
+}
+
+
+/* ==================================== MODAL ======================================== */
+
+.modal-container {
+position: fixed;
+top: 0;
+left: 0;
+height: 100vh;
+width: 100vw;
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+background-color: #fff;
+justify-content: center;
+align-self: center;
+height: 20vh;
+width: 20vw;
+margin: 0 auto;
+}
+
+
+
+/* ==================================== HIDDEN ======================================== */
+
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  display: inline-block;
+}
